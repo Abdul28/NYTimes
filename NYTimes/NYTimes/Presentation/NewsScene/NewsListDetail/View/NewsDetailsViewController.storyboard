@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--News Details View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="NewsDetailsViewController" customModule="NYTimes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B5n-uf-Zve">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="269"/>
+                                <color key="backgroundColor" red="0.27843137254901962" green="0.89411764705882346" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUK-di-I4D">
+                                <rect key="frame" x="10" y="238" width="394" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nR-0F-pjE">
+                                <rect key="frame" x="20" y="279" width="374" height="597"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TUK-di-I4D" firstAttribute="bottom" secondItem="B5n-uf-Zve" secondAttribute="bottom" constant="-10" id="C8U-fc-2dH"/>
+                            <constraint firstItem="B5n-uf-Zve" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Ec7-pl-73h"/>
+                            <constraint firstItem="TUK-di-I4D" firstAttribute="leading" secondItem="B5n-uf-Zve" secondAttribute="leading" constant="10" id="IpZ-pQ-2n3"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="TUK-di-I4D" secondAttribute="trailing" constant="10" id="Nb3-b9-48D"/>
+                            <constraint firstItem="B5n-uf-Zve" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Oyv-nT-iWw"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7nR-0F-pjE" secondAttribute="trailing" constant="20" id="SkC-5Q-zir"/>
+                            <constraint firstItem="7nR-0F-pjE" firstAttribute="top" secondItem="TUK-di-I4D" secondAttribute="bottom" constant="20" id="VGC-GQ-9l6"/>
+                            <constraint firstItem="7nR-0F-pjE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="cTG-Ij-VW4"/>
+                            <constraint firstItem="B5n-uf-Zve" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cce-pq-EOD"/>
+                            <constraint firstItem="B5n-uf-Zve" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.3" id="iAN-oH-icN"/>
+                            <constraint firstAttribute="bottom" secondItem="7nR-0F-pjE" secondAttribute="bottom" constant="20" id="l1A-Ge-fXE"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="imgNews" destination="B5n-uf-Zve" id="a7G-3Z-YGw"/>
+                        <outlet property="lblAuther" destination="TUK-di-I4D" id="Sti-Xv-YCU"/>
+                        <outlet property="tvDetail" destination="7nR-0F-pjE" id="L0Y-HL-X5J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.927536231884062" y="48.883928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
