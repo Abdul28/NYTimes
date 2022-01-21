@@ -47,3 +47,7 @@ git clone https://github.com/Abdul28/NYTimes
 ```
 
 ## Sample Images
+
+![Home Screen](https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen1.png?raw=true)
+![Search Screen](https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen2.png?raw=true)
+![Detail](https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen3.png?raw=true)
