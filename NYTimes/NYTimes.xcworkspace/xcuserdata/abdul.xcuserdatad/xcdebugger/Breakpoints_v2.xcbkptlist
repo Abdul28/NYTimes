@@ -164,14 +164,14 @@
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "1AAFC939-94A9-4D1F-9633-53BF79F4DB65 - c7c690e19daff300"
+                  uuid = "1AAFC939-94A9-4D1F-9633-53BF79F4DB65 - af72010f7601305"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "NYTimes.NewsPage.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;NYTimes.NewsPage.CodingKeys&gt;"
                   moduleName = "NYTimes"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdul/Development/Zia/SmartDubaiM1/NYTimes/NYTimes/Domain/Entities/News.swift"
+                  urlString = "file:///Users/abdul/Development/Zia/SMDubai/Code/NYTimes/NYTimes/Domain/Entities/News.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
@@ -179,14 +179,14 @@
                   offsetFromSymbolStart = "73">
                </Location>
                <Location
-                  uuid = "1AAFC939-94A9-4D1F-9633-53BF79F4DB65 - 9329e3866c3f0059"
+                  uuid = "1AAFC939-94A9-4D1F-9633-53BF79F4DB65 - 5e18537706f0e05c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "NYTimes.NewsPage.CodingKeys.rawValue.getter : Swift.String"
                   moduleName = "NYTimes"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdul/Development/Zia/SmartDubaiM1/NYTimes/NYTimes/Domain/Entities/News.swift"
+                  urlString = "file:///Users/abdul/Development/Zia/SMDubai/Code/NYTimes/NYTimes/Domain/Entities/News.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
@@ -194,22 +194,6 @@
                   offsetFromSymbolStart = "47">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6A65F5F7-D4B8-494B-B46C-9FA7447D8EAC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NYTimes/Domain/UserCases/MostViewedNewsUserCase.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "excute()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -545,6 +529,22 @@
             startingLineNumber = "24"
             endingLineNumber = "24"
             landmarkName = "init(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78B2446B-2BE3-4B4A-B341-869C5CB5CC10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimes/Data/Repositories/NewsDAO.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchNewsList(query:page:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

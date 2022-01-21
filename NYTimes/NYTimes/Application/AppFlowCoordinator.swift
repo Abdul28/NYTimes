@@ -19,8 +19,8 @@ class AppFlowCoordinator {
     }
     
     func start() {
-        let moviesSceneDIContainer = appDIContainer.makeNewsSceneDIContainer()
-        let flow = moviesSceneDIContainer.makeMoviesSearchFlowCoordinator(navigationController: navigationController)
+        let newsSceneDIContainer = appDIContainer.makeNewsSceneDIContainer()
+        let flow = newsSceneDIContainer.makeNewsSearchFlowCoordinator(navigationController: navigationController)
         flow.start()
     }
     

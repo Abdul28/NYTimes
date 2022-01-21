@@ -29,7 +29,7 @@ final class NewsSceneDIContainer {
         return NewsDAO(network: dependencies.newsNetworking)
     }
     
-    // MARK: - Movies List
+    // MARK: - News List
     func makeNewsListViewController(
         coordinator: NewsFlowCoordinator
     ) -> NewsListViewController {
@@ -46,7 +46,7 @@ final class NewsSceneDIContainer {
      
     
     // MARK: - News Detail
-    func makeMovieDetailsViewController(
+    func makeNewsDetailsViewController(
         news: News
     ) -> NewsDetailsViewController {
         return NewsDetailsViewController.create(
@@ -60,7 +60,7 @@ final class NewsSceneDIContainer {
     
     
     // MARK: - Flow Coordinators
-    func makeMoviesSearchFlowCoordinator(
+    func makeNewsSearchFlowCoordinator(
         navigationController: UINavigationController
     ) -> NewsFlowCoordinator {
           return DefaultNewsFlowCoordinator(navigationController: navigationController, dependencies: self)

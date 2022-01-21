@@ -52,6 +52,3 @@ git clone https://github.com/Abdul28/NYTimes
 <img src="https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen1.png?raw=true" width="320" height="693" />
 <img src="https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen2.png?raw=true" width="320" height="693" />
 <img src="https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen3.png?raw=true" width="320" height="693" />
-
-![Search Screen](https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen2.png?raw=true)
-![Detail](https://github.com/Abdul28/NYTimes/blob/main/NYTimes/NYTimes/Resources/Screenshots/screen3.png?raw=true)

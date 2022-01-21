@@ -11,7 +11,7 @@ protocol NewsFlowCoordinatorDependencies {
     
     func makeNewsListViewController(coordinator: NewsFlowCoordinator) -> NewsListViewController
     
-    func makeMovieDetailsViewController(news: News) -> NewsDetailsViewController
+    func makeNewsDetailsViewController(news: News) -> NewsDetailsViewController
 }
 
 protocol NewsFlowCoordinator {
@@ -51,7 +51,7 @@ class DefaultNewsFlowCoordinator: NewsFlowCoordinator {
     }
     
     func showNewsDetail(news: News) {
-        let vc = dependencies.makeMovieDetailsViewController(news: news)
+        let vc = dependencies.makeNewsDetailsViewController(news: news)
         
         navigationController.pushViewController(vc, animated: true)
     }

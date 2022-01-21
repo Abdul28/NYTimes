@@ -15,7 +15,7 @@ import AVFoundation
 class NewsListViewController: BaseViewController, StoryboardInstantiable, Alertable {
 
     var searchBar: UISearchBar!
-    
+    var searchResult : NewsResponseDTO?
     @IBOutlet weak var tableView: UITableView!
     
     private var activityIndicator: UIActivityIndicatorView!
